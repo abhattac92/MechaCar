@@ -1,0 +1,26 @@
+Through our multiple linear regression analysis we found the following variable to have provided a non-random amount
+of variance to the mpg values in the dataset; vehicle length and ground clearance, as well as intercept. The slope 
+of the linear model is not considered to be zero because we have non-zerocoefficients for the significant variables.
+Since the intercept is statistically significant, it means that there are other variables and factors that
+contribute to the mpg that have not been included in our model. These variables may or may not be withing out dataset
+and may still need to be collected or observed. As a result I do not believe this model predicts MechaCar
+prototypes mpg effectively.
+
+By creating a summmary table of statistics for PSI variabe of the suspension copil we found that the min and max are
+1463.064 and 1535.568 respectively with a mean of 1499.53 and a standard deviation of 8.73. This results in a
+variance of 76.23459 which is less than 100. Therefore the currect manufacturing data does meet the design
+specification of having the variance of the suspension coils be less than 100 PSI.
+
+Running a t-test on the PSI data for the suspension coils versus the mean popoluation results of 1500 pounds per inch
+we find that our p-value is 0.5117 which is above our significance level. Therefore, we do not have enough sufficient
+evidence to reject the null hypothesis, and we would state that the two means are statistically similar.
+
+Due to rising prices at the pump, consumers have been increasingly made aware of fuel efficiency. If it can be shown
+That MechaCar outperforms the competition on the basis of fuel efficiency with comparable vehicles that are
+statistically simialar in other categories, Mecharcar could gain marketshare from its competitors. The question to ask
+would be, is the mean of the mpg of MechaCar models statistically different than that of it's competitors similar
+models. The null hypothesis would be that the average mpg (fuel efficiency) is not statistically different, whereas the
+alternative hypothesis is that the average mpg is statistically different (lower) than the competitor. Tr performs this
+test, we would have to collective mpg data for competitor models that compare well on size, seating, design, weight etc.
+to the MechaCar models. Then we would perform T-tests on pair of these mpg data, pairing MechaCar with a competitor each
+time.
